@@ -1,0 +1,38 @@
+.box {
+  width: calc(100vw - 1rem);
+  max-width: 40rem;
+  min-width: 25rem;
+}
+
+.grid {
+  margin-bottom: 1rem;
+}
+
+.fileItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #47645f;
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 12px 2px;
+  margin-block: 8px;
+  -webkit-box-shadow: inset 0px 6px 12px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 6px 12px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 6px 12px -6px rgba(0, 0, 0, 0.75);
+}
+
+.fileOffset {
+  padding-left: 0.5rem;
+}
+
+.fileName {
+  line-height: 1.25em !important;
+  font-size: 1.25em !important;
+  color: #111111;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

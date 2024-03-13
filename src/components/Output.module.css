@@ -1,0 +1,57 @@
+.pre {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: calc(100vw - 1rem);
+  max-width: 40rem;
+  min-width: 25rem;
+}
+
+.box {
+  width: 100%;
+  max-height: 10rem;
+  background-color: hsl(170, 17%, 34%);
+  color: #111111;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: auto;
+  flex-direction: column-reverse;
+  resize: both;
+  font-size: 0.8em;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 0px;
+  -webkit-box-shadow: inset 0px 6px 12px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 6px 12px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 6px 12px -6px rgba(0, 0, 0, 0.75);
+}
+
+.box::-webkit-scrollbar {
+  width: 12px;
+}
+
+.box::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 8px;
+}
+
+.box::-webkit-scrollbar-thumb {
+  background: hsl(170, 50%, 60%);
+  border-radius: 8px;
+  border: 1px solid hsla(170, 17%, 34%);
+}
+
+.box::-webkit-scrollbar-corner {
+  background: transparent;
+  border-radius: 8px;
+}
+
+.box::-webkit-resizer {
+  display: none;
+}
+
+.code {
+  padding: 10px;
+  font-family: Roboto Mono, monospace;
+  font-weight: 300;
+}
