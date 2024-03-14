@@ -6,10 +6,16 @@ A web app to flash your ESP32 or ESP8266 through your browser. Open-Source, free
 
 Have a look [Why So Serial](https://whysoserial.cc)
 
+## Tools
+
+You can use [pio2zip](https://pypi.org/project/pio2zip) to create a zip file with all the files and offsets from any Platformio build.
+
 ## Credits
 
-Made with [ESP Web Tool"](https://github.com/spacehuhntech/espwebtool")
-Which is based on [ESP Web Flasher](https://github.com/NabuCasa/esp-web-flasher)  
+Made with [ESP Web Tool](https://github.com/spacehuhntech/espwebtool")
+
+Which is based on [ESP Web Flasher](https://github.com/NabuCasa/esp-web-flasher)
+
 And inspired by [esptool-js](https://github.com/espressif/esptool-js).
 
 ## Installation

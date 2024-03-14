@@ -13,6 +13,23 @@ const Footer = (props) => {
           display="block"
           sx={{ color: "#555555", fontSize: "0.8em" }}
         >
+          This tool is open source. Check it out on&nbsp;
+          <Link
+            href="https://github.com/blackshieldpt/why-so-serial"
+            target="_blank"
+            underline="hover"
+            color="inherit"
+          >
+            Github.
+          </Link>
+        </Typography>
+      </Box>
+      <Box sx={{ mx: "auto", mt: 0 }}>
+        <Typography
+          align="center"
+          display="block"
+          sx={{ color: "#555555", fontSize: "0.8em" }}
+        >
           Based on&nbsp;
           <Link
             href="https://github.com/spacehuhntech/espwebtool"

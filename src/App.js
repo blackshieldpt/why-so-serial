@@ -266,6 +266,23 @@ const App = () => {
         alignItems="center"
         sx={{ minHeight: "calc(100vh - 116px)" }}
       >
+        {/* Home Quote */}
+        {!connected && !connecting && (
+          <Grid item xs={3}>
+            <Box align="center">
+              <Typography
+                variant="h4"
+                component="h4"
+                sx={{ fontWeight: "light", color: "#CCCCCC" }}
+              >
+                This tool allows you to flash a pre-compiled firmware
+                <br />
+                on your ESP8266 or ESP32 devices through the web browser.
+              </Typography>
+            </Box>
+          </Grid>
+        )}
+
         {/* Home Page */}
         {!connected && !connecting && (
           <Grid item>
