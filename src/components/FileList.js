@@ -9,10 +9,12 @@ import Typography from "@mui/material/Typography";
 import UploadIcon from "@mui/icons-material/Upload";
 import AddBoxIcon from "@mui/icons-material/AddBox";
 import DeleteIcon from "@mui/icons-material/Delete";
+import HelpIcon from "@mui/icons-material/HelpOutlined";
 import HighlightOffIcon from "@mui/icons-material/HighlightOff";
 import RestartAltIcon from "@mui/icons-material/RestartAlt";
 import DriveFolderUploadIcon from "@mui/icons-material/DriveFolderUpload";
 import JSZip from "jszip";
+import Tooltip from "@mui/material/Tooltip";
 
 import styles from "./FileList.module.css";
 
@@ -133,6 +135,11 @@ const FileList = (props) => {
               onChange={(e) => uploadZipFile(e)}
             />
           </Button>
+          <Tooltip title="You can use the 'pio2zip' python tool to create a zip file with all the files and offsets from any Platformio build.  (https://pypi.org/project/pio2zip)">
+            <IconButton size="small" color="primary" component="label">
+              <HelpIcon fontSize="small" />
+            </IconButton>
+          </Tooltip>
         </Grid>
       </Grid>
 
